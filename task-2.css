@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  height: 900vh;
+}
+.navbar-bg {
+  color: white;
+  background-color: blueviolet;
+  border: 4px solid white;
+}
+.logo {
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.toggler {
+  background-color: white;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+
+.home {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.skills {
+  color: white;
+  font-style: italic;
+}
+
+.projects {
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.about {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.contact {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.heading {
+  color: blueviolet;
+  font-weight: bold;
+  font-size: 50px;
+  font-style: italic;
+  padding: 20px;
+}
+.para {
+  font-weight: normal;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.img {
+  padding: 30px;
+  height: 30vh;
+  width: 30vw;
+  border-radius:100%;
+  border:1px solid blueviolet;
+}
+
+.skills-heading {
+  color: blueviolet;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 45px;
+}
+.skills-para {
+  font-weight: boldest;
+  font-style: italic;
+  font-size: 30px;
+}
+.projects-heading {
+  color: blueviolet;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 45px;
+}
+.about-heading {
+  color: blueviolet;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 45px;
+}
+.about-para {
+  font-style: italic;
+  font-size: 25px;
+}
+.about-img {
+  height: 30vh;
+  width: 30vw;
+  border-radius: 100%;
+  border:1px solid blueviolet;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.contact-heading {
+  color: blueviolet;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 45px;
+}
+.card-1 {
+  height: 330px;
+  background-color: blueviolet;
+  color: white;
+  border: 4px blueviolet solid;
+  border-radius: 20px;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.card-img-top-1 {
+  height: 40px;
+  width: 60px;
+}
+
+.card-2 {
+  height: 330px;
+  background-color: blueviolet;
+  color: white;
+  border: 4px blueviolet solid;
+  border-radius: 20px;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img-top-2 {
+  height: 155px;
+  width: 285px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.card-3 {
+  height: 135px;
+  background-color: blueviolet;
+  color: white;
+  font-style: italic;
+  border: 4px blueviolet solid;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img-top-3 {
+  height: 50px;
+  width: 60px;
+  padding: 5px;
+}
+.img-1 {
+  height: 20px;
+  width: 30px;
+}
+
+.card {
+  height: 190px;
+  width: 80vw;
+  background-color: blueviolet;
+  color: white;
+  border:4px blueviolet solid;
+}
+.container-1 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding:30px;
+}
